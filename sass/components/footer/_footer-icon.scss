@@ -1,0 +1,39 @@
+.connection{
+    flex-direction: column;
+}
+.connection__name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--whitey-color);
+    text-transform: uppercase;
+}
+.connection__list{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.connection__list-dark{
+   
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--transition-dur-and-func);
+    &:hover,
+&:focus{
+   background-color: var(--accent-color);
+}
+}
+
+.connection__icon{
+    fill: var(--whitey-color);
+}
