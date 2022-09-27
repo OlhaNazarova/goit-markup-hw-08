@@ -46,8 +46,7 @@ body {
   text-decoration: none;
 }
 
-img,
-svg {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -1208,9 +1207,6 @@ textarea {
   .menu {
     display: flex;
     margin-left: 90px;
-  }
-  .menu .menu__item + .menu__item {
-    margin-left: 50px;
   }
 }
 @media screen and (min-width: 768px) {
