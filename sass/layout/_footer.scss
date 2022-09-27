@@ -1,0 +1,131 @@
+.page-footer {
+    background-color: var(--background-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .page-footer-container {
+    display: block;
+  
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tablet-footer-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      .tablet-footer-wrapper {
+        margin-bottom: 60px;
+      }
+    }
+  }
+  
+  .address {
+    display: block;
+    font-style: normal;
+  
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+    }
+  }
+  
+  .address__item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .address__item {
+    margin-bottom: 8px;
+  
+    @media screen and (min-width: 768px) {
+      margin-bottom: 9px;
+    }
+  }
+  
+  // .address-list .address__item + .address__item:last-of-type {
+  //   margin-bottom: 60px;
+  
+  //   @media screen and (min-width: 1200px) {
+  //     margin-bottom: 0;
+  //   }
+  // }
+  
+  .address__link {
+    color: var(--primary-white-color);
+  
+    line-height: 1.71;
+  }
+  
+  .address .menu__link {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: var(--color-address-link-footer);
+  
+    font-weight: inherit;
+    letter-spacing: 0.03em;
+  
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .join {
+      margin-left: 70px;
+    }
+  }
+  
+
+// .footer {
+//     background: var(--background-color);
+//     }
+    
+//     .footer__color-back {
+//         background: var(--background-color);
+//         padding-top: 60px;
+//         padding-bottom: 60px;
+        
+//     }
+//     .footer__color-back .container{
+//         display: flex;
+//         align-items: baseline;
+//         justify-content: space-between;
+//     }
+    
+//     .footer__wrapper-adress{
+//         flex-direction: column;
+//     }
+    
+    
+//     .footer__adress {
+//         margin-top: 20px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 1.7;
+//     letter-spacing: 0.03em;
+//     color: var(--whitey-color);
+//     }
+    
+//     .footer__account {
+//        margin-bottom: 9px;
+//     }
+    
+   
+
+   

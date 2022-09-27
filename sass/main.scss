@@ -2,30 +2,35 @@
 @import'./utils/visually-hidden';
 
 @import'./base/common';
-@import'./base/reset';
+@import'./base/container';
+@import'./base/section';
 
 
 
-@import'./components/modal-btn';
-@import'./components/footer/footer';
-@import'./components/footer/footer-icon';
-@import'./components/footer/modal-form-footer';
+
+@import'./components/button-project';
+@import'./components/footer/footer-logo';
+@import'./components/footer/footer-media';
+@import'./components/footer/footer-subscrible';
 @import'./components/modal-form';
-@import'./components/header';
 @import'./components/backdrop-modal';
-@import'./components/container';
-@import'./components/section';
+@import'./components/media-icon-team';
+@import'./components/modal-backdrop';
+@import'./components/modal-window';
 @import'./components/mobile-menu';
 
 
 
 
 @import'./layout/hero';
-@import'./layout/description';
-@import'./layout/about';
+@import'./layout/features';
+@import'./layout/work';
 @import'./layout/team';
 @import'./layout/clients';
 @import'./layout/portfolio';
+@import'./layout/header';
+@import'./layout/project';
+@import'./layout/footer';
 
 
 

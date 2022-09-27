@@ -1,0 +1,121 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .features__item {
+    max-width: 450px;
+  
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      width: 354px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+  
+      margin-bottom: 0;
+    }
+  }
+  
+  .features__card {
+    display: flex;
+  
+    max-width: 450px;
+    height: 120px;
+  
+    background-color: #f5f4fa;
+  
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 30px;
+  
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      max-width: 354px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      max-width: 270px;
+    }
+  }
+  
+  .features-icon {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+  }
+  
+  .features__subtitle {
+    margin-bottom: 10px;
+  
+    font-size: var(--main-font-size-14px);
+    line-height: 1.14;
+  
+    text-transform: uppercase;
+    text-align: center;
+  
+    @media screen and (min-width: 768px) {
+      text-align: start;
+    }
+  }
+  
+  .features__text {
+    color: var(--primary-text-color);
+  
+    line-height: 1.71;
+  }
+
+// .description__wrapper-icon {
+//     background-color: #F5F4FA;
+//     height: 120px;
+//     align-items: center;
+//     justify-content: center;
+//     display: flex;
+//     margin-bottom: 30px;
+// }
+
+
+// .description__name{
+//     margin-bottom: 10px;
+// font-size: 14px;
+// font-weight: 700;
+// line-height: 1.14;
+// letter-spacing: 0.03em;
+// text-transform: uppercase;
+// color: var(--text-color);
+// }
+
+// .description__item {
+// width: 270px;
+// font-style: normal;
+// font-weight: 400;
+// line-height: 1.71;
+// letter-spacing: 0.03em;
+// color: var(--mail-color)
+// }
+
+// .description__list-title{
+//     flex-basis: calc((100% - 90px) / 4);
+//     gap: 30px;
+//     display: block;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+// .description__title {
+//     justify-content: center;
+//     gap: 30px;
+//     display: flex;
+// }
+
